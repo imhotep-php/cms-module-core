@@ -1,6 +1,6 @@
 {
   "name": "imhotep/cms-module-core",
-  "type": "imhotep-cms-module",
+  "type": "october-module",
   "autoload": {
     "psr-4": {
       "Imhotep\\Cms\\Modules\\Core\\": "src/"
