@@ -9,5 +9,12 @@
   "require": {
     "composer/installers": "~2.0"
   },
+  "extra": {
+    "installer-paths": {
+      "modules/{$vendor}/{$name}": ["type:imhotep-cms-module"],
+      "plugins/{$vendor}/{$name}": ["type:imhotep-cms-plugin"],
+      "themes/{$vendor}/{$name}": ["type:imhotep-cms-theme"]
+    }
+  },
   "minimum-stability": "dev"
 }
